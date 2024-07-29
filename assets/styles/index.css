@@ -42,7 +42,7 @@ body {
   }
   
   .headernav a:hover {
-    background-color: #f0f0f0;
+    background-color: #222222;
   }
   
   .headernav li:first-child {
@@ -122,4 +122,249 @@ body {
  button:hover {
     background: linear-gradient(90deg, #AB42D5 0%, #FF6FE5 100%);
     box-shadow: 0px 0px 11.9px -2px #571752;
+  }
+
+  .container-first {
+    background: linear-gradient(270deg, #FFF 11.14%, #959595 83.22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .first-section {
+    background-color: #0A0A0A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    height: 55vh;
+  }
+
+  .first-section img {
+    display: none;
+  }
+
+  .container-first h1 {
+    font-size: 2rem;
+  }
+
+  .tools {
+    display: flex;
+    padding: 1rem .5rem;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+    border-top: 0.75px solid #2B2B2B;
+    border-bottom: 0.75px solid #2B2B2B;
+    background: #151515;
+  }
+
+  .svglinks {
+    transform: scale(.8);
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .travme {
+    padding: 3rem 3rem 0rem 3rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    background: linear-gradient(72deg, #F6A525 3.98%, #F7AC39 14.33%, #F8B75C 50.78%, #FFC082 93.97%);
+  }
+
+  .title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+  }
+
+
+  .travme aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+  }
+
+  .travme h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .travme p {
+    color: #FFF9CD;
+  }
+
+  .travme h3 {
+    color: #FFF9CD;
+  }
+
+  .nsa {
+    padding: 3rem 3rem 0rem 3rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    background: linear-gradient(72deg, #49B51A 3.98%, #60CB2F 21.08%, #89E756 44.93%, #9BE853 61.12%, #A8F161 77.77%, #C6E857 93.97%);
+  }
+
+  .title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+  }
+
+
+  .nsa aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+  }
+
+  .nsa h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .nsa p {
+    color: #e7ffdc;
+  }
+
+  .nsa h3 {
+    color: #e7ffdc;
+  }
+
+  .hope4kids {
+    padding: 3rem 3rem 0rem 3rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    background: linear-gradient(72deg, #254F87 3.98%, #4FB6D9 57.47%, #5EEAF3 82.17%, #61F3F8 93.97%);
+  }
+
+  .title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+  }
+
+
+  .hope4kids aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+  }
+
+  .hope4kids h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .hope4kids p {
+    color: #CFF0FE;
+  }
+
+  .hope4kids h3 {
+    color: #CFF0FE;
+  }
+
+  .fitbud {
+    padding: 3rem 3rem 0rem 3rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+    background: linear-gradient(72deg, #69259D 3.98%, #CE3CD0 61.53%, #F15BFF 93.97%);
+  }
+
+  .title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
+  }
+
+
+  .fitbud aside {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+  }
+
+  .fitbud h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+
+  .fitbud p {
+    color: #F8CFFE;
+  }
+
+  .fitbud h3 {
+    color: #F8CFFE;
+  }
+
+  footer {
+    background: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  footer ul {
+    list-style-type: none;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #9D9D9D;
+  } 
+
+  footer h4 {
+    font-size: 1.5rem;
+    color: white;
+  }
+
+  .resume {
+    text-decoration: underline;
+    font-style: italic;
+  }
+
+  .link-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .round-links {
+  border-radius: 200px;
+  border: 0.5px solid #606060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  }
+
+  .round-links a {
+    height: 20px;
   }
